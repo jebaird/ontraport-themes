@@ -6,8 +6,8 @@
             '.ontraport_panes_action .ussr-icon-24',
             '.chrome-action-bar-title',
             //button icons in the action drawer
-            '.ussr-chrome-panel-action-drawer .ussr-chrome-panel-action-drawer-button .ussr-icon'
-            
+            '.ussr-chrome-panel-action-drawer .ussr-chrome-panel-action-drawer-button .ussr-icon',
+            '.ussr-component-section-titlebar'
         ]
     },
     addClass = function( selectors ){

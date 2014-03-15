@@ -469,8 +469,17 @@ html .ontraport_components_default_object_editor .ussr-form-input-type-display .
   font-weight: bold;
 }
 
-
-
+html .ussr-component-section-titlebar {
+  padding: .25em .05em;
+  height: auto !important;
+}
+html .ussr-component-section-titlebar .ussr-component-section-title{
+  color: #fff !important;
+  font-weight: bold;
+  text-shadow: none;
+  /* padding-top: 5px; */
+  margin: 0px;
+}
 /* 
   pane and panes
   

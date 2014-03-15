@@ -1,0 +1,501 @@
+/*
+ * 2.4 lives on
+ * legacy theme for 3.0
+ */
+* {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+/* 
+
+ussr overrides
+
+*/
+
+html .ussr-texture-metal-highlight-hard,
+html .ussr-texture-metal-highlight-soft,
+html .ussr-texture-metal-glass{
+    background-image: none;
+}
+html .ussr-state-loading{
+  background-image: url(images/loading_page.gif) !important;
+  background-position: 0 0;
+}
+
+
+html .ussr-table-striped tr:not(.ussr-table-striped-row-ignore):not(.ussr-state-highlight):nth-of-type(odd) > td:not(.ussr-theme-helper-background-color), .ussr-table-striped-odd tr:not(.ussr-table-striped-row-ignore):not(.ussr-state-highlight):nth-of-type(odd) > td:not(.ussr-theme-helper-background-color), .ussr-table-striped-even tr:not(.ussr-table-striped-row-ignore):not(.ussr-state-highlight):nth-of-type(even) > td:not(.ussr-theme-helper-background-color) {
+  background-color: #fff;
+}
+html .ussr-table-striped tr td {
+  border-bottom: 1px solid #E3D284;
+}
+
+
+/* icons */
+
+html .ussr-icon-close{
+  background-image: url(img/close.gif) !important;
+  background-position: 0 0;
+}
+html .ussr-icon-search{
+  background-image: url(img/magnifying-glass.gif) !important;
+  background-position: 0 0;
+}
+
+
+html .ussr-icon-plus{
+  background-image: url(img/list_add.gif) !important;
+  background-position: 0 0;
+}
+
+html .ussr-icon-minus{
+  background-image: url(img/list_remove.gif) !important;
+  background-position: 0 0;
+}
+
+html .ussr-icon-trashcan,
+html .ussr-icon-circle-trash{
+  background-image: url(img/trashcan.gif) !important;
+  background-position: 0 0;
+}
+
+
+html .ussr-icon-pencil {
+  background-image: url(img/pencil.gif) !important;
+  background-position: 0 0;
+}
+html .ussr-icon-alert {
+  background-image: url(img/warning.png) !important;
+  background-position: 0 0;
+  background-size: 16px 16px;
+  height: 18px;
+}
+
+html .ussr-icon-mail-closed-moving-1,
+html .ussr-icon-mail-closed-moving-2,
+html .ussr-icon-mail-closed,
+html .ussr-icon-mail-open,
+html .ussr-icon-envelop-closed {
+  background-image: url(img/sequence_icon.gif) !important;
+  background-position: 0 0;
+}
+
+html .ussr-icon-floppy{
+  background-image: url('img/draft.png') !important;
+  background-position: 0 0;
+}
+
+html .ussr-icon-triangle-1-n{
+  background-image: url('img/up.gif') !important;
+  background-position: 0 0;  
+}
+
+
+html .ussr-icon-checkmark {
+  background-image: url('img/check_new.gif') !important;
+  background-position: 0 0;  
+}
+/*
+ * chrome
+ */
+html #ussr-chrome-wrapper{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 2px;
+    margin-top: -15px
+} 
+html #chrome-header{
+
+    height: 74px;
+    z-index: 1000;
+    background-image: url(img/header_bg.png) !important;
+    
+
+    border-bottom: 3px solid gray;
+
+    background-position: center bottom;
+
+}
+/*bring the nav to the top*/
+html #chrome-header nav {
+    /* margin-top: -2em; */
+    top: 11px;
+}
+/*pop all childrend of the header up*/
+/* html #chrome-header > *{
+    z-index: 1006;
+   
+} */
+ 
+html #ussr-chrome-page {
+    top:15px;
+}
+/*
+kill border radius for inputs
+*/
+html #ussr-chrome-page .ussr-component-form-control .ussr-corner-all,
+html #ussr-chrome-page .ussr-component-form-control .ussr-corner-tl,
+html #ussr-chrome-page .ussr-component-form-control .ussr-corner-tr,
+html #ussr-chrome-page .ussr-component-form-control .ussr-corner-bl,
+html #ussr-chrome-page .ussr-component-form-control .ussr-corner-br,
+
+
+html #ussr-chrome-page .ussr-component-form-control .ussr-round-right,
+html #ussr-chrome-page .ussr-component-form-control .ussr-round-left,
+html #ussr-chrome-page .ussr-component-form-control .ussr-round-bottom,
+html #ussr-chrome-page .ussr-component-form-control .ussr-round-top,
+html #ussr-chrome-page .ussr-component-form-control .ussr-round-all,
+html #ussr-chrome-page .ussr-component-form-control .ussr-round-tl,
+html #ussr-chrome-page .ussr-component-form-control .ussr-round-tr,
+html #ussr-chrome-page .ussr-component-form-control .ussr-round-bl,
+html #ussr-chrome-page .ussr-component-form-control .ussr-round-br
+{
+    border-radius: 0px;
+}
+
+html #ussr-chrome-page .ussr-chrome-sidebar{
+    width: auto;
+    top: 0px;
+
+    left: 0px;
+    /* z-index: 1000; */
+    bottom: auto;
+    right: 150px;
+}
+html #ussr-chrome-page .ussr-chrome-sidebar section{
+    margin-bottom: 0px !important;
+    
+}
+
+/* hides the refferal contest */
+html #ussr-chrome-page .ussr-chrome-sidebar .ontraport_sidebar_sections_referralcontest_wrapper{
+  display: none;
+}
+
+html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav-toggle-view,
+html #ussr-chrome-page .ussr-chrome-sidebar .ontraport-sideoff-container{
+    display: none !important;
+}
+
+html #ussr-chrome-page .ussr-chrome-sidebar .nav-orientation-vertical li{
+/*     float: left;
+    margin: 0px;
+    position: relative; */
+}
+html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav{
+    padding: 0px;
+    height: 59px;
+    padding-left: 200px;
+    /*
+    since someone didnt use the framework*/
+    background-image: none;
+    
+    z-index: 1000;
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px none black !important;
+}
+/* make the nav stick on the bottom of the header*/
+html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav > nav{
+    padding-top: 17px;
+}
+html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav .ussr-icon{
+    display:none;
+}
+
+html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav .primary-nav-item {
+    border: 1px none gray;
+    border-radius: 0px;
+    float: left;
+    margin: 0px;
+    position: relative;
+}
+
+html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav .primary-nav-item-link{
+    border: 3px solid #fff;
+    border-bottom: 0px none black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* color: #fff; */
+    text-shadow: none;
+    padding: .25em 1em;
+    margin-left: 5px;
+    height:27px;
+    position: relative;
+   
+    background-color: currentcolor;
+}
+/* make the primary link label white */
+html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav .primary-nav-item-link .primary-nav-item-label{
+  color: #fff;
+}
+
+/*
+top tab color
+
+*/
+/* html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav .primary-nav-item-link:nth-of-type(n1){
+    background-color: #000;
+} */
+
+
+
+/* sub navs as drop downs*/
+html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav-sub-container{
+    position: absolute;
+    border: 1px solid black !important;
+    display: none !important;
+    
+}
+html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav .primary-nav-item:hover .primary-nav-sub-container{
+    display: block !important;
+    z-index: 5000;
+}
+/*
+panels wrapper
+*/
+html #ussr-chrome-page #ussr-chrome-panels{
+    top: 85px;
+    left: 0px;
+}
+/*make room for the page title*/
+html #ussr-chrome-page #ussr-chrome-panels .ussr-chrome-panel{
+    top: 2em;
+    
+}
+/*
+////////////////////////////////////////
+action bar
+////////////////////////////////////////
+*/
+html #ussr-chrome-page .ussr-chrome-panel-action-bar{
+    box-shadow: none;
+    top: 0px;
+    height: 50px;
+}
+
+html #ussr-chrome-page .ussr-chrome-panel-action-bar .chrome-action-bar-title{
+  display: block;
+  position: absolute;
+  margin-top: -32px;
+  min-width: 250px;
+  border: 1px solid #DFDFDF;
+  padding: .5em 0px;
+  margin-bottom: 0px;
+  height: auto;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: verdana;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  text-align: center;
+  
+  border: 3px solid white;
+  box-shadow: 0px -1px 0px #DFDFDF;
+  
+  outline: 1px #fff;
+  background-color: #DFDFDF;
+}
+
+/* hide the gradient */
+html .chrome-action-bar > .chrome-action-bar-buttons > .chrome-action-bar-buttons:after{
+  display: none;
+}
+
+/* html .ussr-chrome-panel-action-bar .ussr-chrome-panel-button{
+  height: 50px;
+} */
+/*
+////////////////////////////////////////
+group_selector
+////////////////////////////////////////
+*/
+
+html #ussr-chrome-page .ussr-chrome-panel-action-bar .ussr-component-group_selector{
+    width: 225px !important;
+    min-width: none !important;
+    max-width: none !important;
+}
+html #ussr-chrome-page .ussr-chrome-panel-action-bar .ussr-component-group_selector > :first-child:after{
+    content: "Current Group :";
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #000;
+    float: left;
+}
+
+html #ussr-chrome-page .ussr-chrome-panel-action-bar .ussr-component-group_selector .ussr-component-input{
+   margin-left: 100px; 
+    
+}
+
+/*hide design elements for the action buttons*/
+html #ussr-chrome-page .ussr-chrome-panel-action-bar .button-background-helper{
+  display:none;
+}
+
+html #ussr-chrome-page .ussr-chrome-panel-action-bar .chrome-action-bar-buttons,
+html #ussr-chrome-page .ussr-chrome-panel-action-bar .ussr-chrome-panel-button{
+  background-image: none !important;
+}
+
+
+html #ussr-chrome-page .ussr-chrome-panel-action-bar >.chrome-action-bar-buttons {
+  /* move the action buttons to the left */
+  margin-left: 140px;
+  
+}
+
+html #ussr-chrome-page .ussr-chrome-panel-action-bar >.chrome-action-bar-buttons:before{
+  display: none;
+}
+
+html #ussr-chrome-page #panelbuttonbar{
+  height: 50px;
+  overflow: hidden;
+}
+
+html #ussr-chrome-page #panelbuttonbar * {
+  border: 1px none black;
+}
+
+html #ussr-chrome-page #panelbuttonbar .ussr-icon-24 {
+/*   display: none; */
+   background: currentcolor url("img/button.png") no-repeat !important;
+  background-position: 0;
+  height: 18px;
+  width: 18px;
+  border-radius: 3px;
+}
+
+
+
+
+
+
+/* action drawer */
+
+.ussr-chrome-panel-action-drawer {
+  top: 52px;
+}
+
+.ussr-chrome-panel-action-drawer .ussr-chrome-panel-action-drawer-button .ussr-icon{
+  background-image: url("img/button.png") !important;
+
+  background-color: currentcolor;
+  border-radius: 2px;
+  background-position: 0;
+}
+
+
+/* 
+///////////
+component overrides
+////////
+*/
+
+
+/* 
+  panel
+  
+*/
+
+html .ussr-chrome-panel-pane-header .ussr-chrome-panel-pane-header-title{
+  overflow: visible;
+}
+
+/* meta count x contacts */
+.ussr-chrome-panel-pane-header .ussr-component-collection-meta-count:before{
+  content: '(';
+}
+.ussr-chrome-panel-pane-header .ussr-component-collection-meta-count{
+  position: absolute;
+  top: -71px;
+  left: 233px;
+  z-index: 30;
+}
+.ussr-chrome-panel-pane-header .ussr-component-collection-meta-count:after{
+  content: ')';
+}
+
+
+
+/* 
+//////
+collection
+//////
+*/
+
+.ussr-component-collection tr:not(.ussr-state-highlight) .ussr-component-collection-cell-type-checkbox .ussr-icon-checkbox-empty {
+  /* make checkboxes visible all the time */
+  visibility:visible !important;
+}
+
+
+
+.ussr-form-control-action-save{
+  background: transparent url("img/saveicon.png") no-repeat !important;
+  width: 40px;
+  border: none;
+  right: -40px !important;
+  position: relative;
+  z-index: 10;
+}
+
+/* save button in default object editor */
+
+html body .ussr-form-control-action-save .ussr-button-text{
+  display: none;
+}
+
+
+
+
+/*
+object editor
+*/
+
+html .ussr-component-section-titlebar .ussr-icon-triangle-1-s{
+  background-image: url('img/up.gif') !important;
+  background-position: 0 0;  
+}
+
+html .ontraport_components_default_object_editor .ussr-form-input-type-display .ussr-form-input-wrapper{
+  font-weight: bold;
+}
+
+
+
+/* 
+  pane and panes
+  
+*/
+html .ussr-chrome-panel .ussr-chrome-panel-panes{
+  top: 88px;
+}
+html .ussr-chrome-panel .ussr-chrome-panel-panes .ussr-chrome-panel-pane{
+  padding-top: 0px;
+}
+
+/* hide the backbutton */
+html .ussr-chrome-panel-pane-header-back{
+  display: none;
+}
+
+
+/*
+panes 
+*/
+
+ .ussr-chrome-panel-pane-nav{
+  z-index: 3;
+}
+.ussr-chrome-panel-pane-header-title .h2{
+  display: none !important;
+}
+.ussr-chrome-panel-pane-header {
+  border: 0px none black;
+}

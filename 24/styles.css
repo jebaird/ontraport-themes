@@ -226,7 +226,7 @@ html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav .primary-nav-item-link{
     height:27px;
     position: relative;
    
-    background-color: currentcolor;
+    /* background-color: currentcolor; */
 }
 /* make the primary link label white */
 html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav .primary-nav-item-link .primary-nav-item-label{
@@ -297,7 +297,9 @@ html #ussr-chrome-page .ussr-chrome-panel-action-bar .chrome-action-bar-title{
   box-shadow: 0px -1px 0px #DFDFDF;
   
   outline: 1px #fff;
-  background-color: #DFDFDF;
+  /* background-color: #DFDFDF; */
+  color: white;
+  text-shadow: 0 0;
 }
 
 /* hide the gradient */
@@ -364,7 +366,7 @@ html #ussr-chrome-page #panelbuttonbar * {
 
 html #ussr-chrome-page #panelbuttonbar .ussr-icon-24 {
 /*   display: none; */
-   background: currentcolor url("img/button.png") no-repeat !important;
+   background-image: url("img/button.png")!important;
   background-position: 0;
   height: 18px;
   width: 18px;
@@ -385,7 +387,7 @@ html #ussr-chrome-page #panelbuttonbar .ussr-icon-24 {
 .ussr-chrome-panel-action-drawer .ussr-chrome-panel-action-drawer-button .ussr-icon{
   background-image: url("img/button.png") !important;
 
-  background-color: currentcolor;
+  /* background-color: currentcolor; */
   border-radius: 2px;
   background-position: 0;
 }

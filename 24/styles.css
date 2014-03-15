@@ -492,12 +492,27 @@ html .ussr-chrome-panel-pane-header-back{
 panes 
 */
 
- .ussr-chrome-panel-pane-nav{
+
+
+.ussr-chrome-panel-pane-nav{
   z-index: 3;
+  top: 0px !important;
+  bottom: 0px !important;
+  /* right: 115px !important; */
+  /* width: 70% !important; */
+}
+html .ussr-chrome-panel-pane-header {
+  border: 0px none black;
+  
+  height: 16px;
+  top: 40px;
 }
 .ussr-chrome-panel-pane-header-title .h2{
   display: none !important;
 }
-.ussr-chrome-panel-pane-header {
-  border: 0px none black;
+
+
+.ussr-panes-object-header-with-controls .ussr-chrome-panel-pane-header {
+  top: 0px;
+  z-index: 500;
 }

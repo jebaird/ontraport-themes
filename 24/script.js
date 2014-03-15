@@ -12,9 +12,8 @@
     },
     addClass = function( selectors ){
          $.each( selectors, function(c, s){
-            $(s.join(',')).addClass(c)
-            console.log(c)
-        })
+            $(s.join(',')).addClass(c);
+        });
     }
     
     
@@ -25,5 +24,8 @@
         addClass(selectors)
     })
     
-    addClass(selectors)
+    addClass(selectors);
+    
+    //fix tracking tab bg
+    $('.primary-nav-item[data-attr=tracking_campaign] > a').css('background-color', '#000')
 })();

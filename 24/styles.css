@@ -292,7 +292,7 @@ html #ussr-chrome-page .ussr-chrome-panel-action-bar .chrome-action-bar-title{
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
   text-align: center;
-  
+  line-height: 1.44;
   border: 3px solid white;
   box-shadow: 0px -1px 0px #DFDFDF;
   
@@ -485,7 +485,7 @@ html .ussr-component-section-titlebar .ussr-component-section-title{
   
 */
 html .ussr-chrome-panel .ussr-chrome-panel-panes{
-  top: 88px;
+  /* top: 88px; */
 }
 html .ussr-chrome-panel .ussr-chrome-panel-panes .ussr-chrome-panel-pane{
   padding-top: 0px;

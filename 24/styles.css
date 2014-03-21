@@ -233,6 +233,10 @@ html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav .primary-nav-item-link 
   color: #fff;
 }
 
+html .chrome-action-bar-pin{
+  display: none;
+}
+
 /*
 top tab color
 
@@ -266,6 +270,7 @@ html #ussr-chrome-page #ussr-chrome-panels .ussr-chrome-panel{
     top: 2em;
     
 }
+
 /*
 ////////////////////////////////////////
 action bar

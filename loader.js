@@ -16,8 +16,8 @@ window.bookmarklet = function(opts){fullFunc(opts)};
 // These are the styles, scripts and callbacks we include in our bookmarklet:
 window.bookmarklet({
  
-    css : [ 'http://repos/ontraport-themes/24/styles.css' ],//['http://www.site.com/your.css'],
-    js  : [ 'http://repos/ontraport-themes/24/script.js' ],//['http://www.site.com/youryour.js'],    
+    css : [ 'https://app.ontraport.com/ontraport-themes/24/styles.css' ],//['http://www.site.com/your.css'],
+    js  : [ 'https://app.ontraport.com/ontraport-themes/24/script.js' ],//['http://www.site.com/youryour.js'],    
 	jqpath : 'http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js', //<-- option to include your own path to jquery
     ready : function(){
         //TODO: show picker

@@ -168,10 +168,10 @@ html #ussr-chrome-page .ussr-chrome-sidebar section{
     
 }
 
-/* hides the refferal contest */
-html #ussr-chrome-page .ussr-chrome-sidebar .ontraport_sidebar_sections_referralcontest_wrapper{
+html #ussr-chrome-page .ussr-chrome-sidebar section:not(.ontraport_primarynav){
   display: none;
 }
+
 
 html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav-toggle-view,
 html #ussr-chrome-page .ussr-chrome-sidebar .ontraport-sideoff-container{

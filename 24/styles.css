@@ -226,7 +226,7 @@ html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav .primary-nav-item-link{
     height:27px;
     position: relative;
    
-    /* background-color: currentcolor; */
+     background-color: currentcolor; 
 }
 /* make the primary link label white */
 html #ussr-chrome-page .ussr-chrome-sidebar .primary-nav .primary-nav-item-link .primary-nav-item-label{
